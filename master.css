@@ -176,7 +176,7 @@ nav ul li:nth-of-type(5):hover + .active {
 
 
 
-.fa-brands {
+.yes {
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -454,4 +454,153 @@ section {
     body {
         display: none;
     }
+}
+
+.container-four {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs {
+    width: 2000px;
+    background-color: #ddd;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.ds .icond {
+    width: 70px;
+    height: 70px;
+    font-size: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds .icond i[class="fa-brands fa-facebook-f"] {
+    color: #1877f2;
+}
+
+.ds .icond i[class="fa-brands fa-twitter"] {
+    color: #2aa9e0;
+}
+
+.ds .icond i[class="fa-brands fa-youtube"] {
+    color: #ff0000;
+}
+
+.ds .icond i[class="fa-brands fa-github"] {
+    color: #161b22;
+}
+
+.ds .icond i[class="fa-brands fa-telegram"] {
+    color: #23a0dc;
+}
+
+.ds span {
+    font-size: 3rem;
+    margin: 0 20px;
+    display: none;
+}
+
+.ds:hover:first-of-type div + span {
+    display: block;
+    color: #1877f2;
+}
+
+.ds:first-of-type:hover .icond {
+    background-color: #1877f2;
+    transition: 0.3s;
+    transform: rotatez(-45deg);
+    transition: transform 0.5s;
+}
+
+.ds:first-of-type:hover .icond i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ds:hover:nth-of-type(2) div + span {
+    display: block;
+    color: #2aa9e0;
+}
+
+.ds:nth-of-type(2):hover .icond {
+    background-color: #2aa9e0;
+    transition: 0.3s;
+    transform: rotatez(-45deg);
+    transition: transform 0.5s;
+}
+
+.ds:nth-of-type(2):hover .icond i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ds:hover:nth-of-type(3) div + span {
+    display: block;
+    color: #ff0000;
+}
+
+.ds:nth-of-type(3):hover .icond {
+    background-color: #ff0000;
+    transition: 0.3s;
+    transform: rotatez(-45deg);
+    transition: transform 0.5s;
+}
+
+.ds:nth-of-type(3):hover .icond i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ds:hover:nth-of-type(4) div + span {
+    display: block;
+    color: #161b22;
+}
+
+.ds:nth-of-type(4):hover .icond {
+    background-color: #161b22;
+    transition: 0.3s;
+    transform: rotatez(-45deg);
+    transition: transform 0.5s;
+}
+
+.ds:nth-of-type(4):hover .icond i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ds:hover:nth-of-type(5) div + span {
+    display: block;
+    color: #23a0dc;
+}
+
+.ds:nth-of-type(5):hover .icond {
+    background-color: #23a0dc;
+    transition: 0.3s;
+    transform: rotatez(-45deg);
+    transition: transform 1s;
+}
+
+.ds:nth-of-type(5):hover .icond i {
+    color: #fff;
+    transition: 0.3s;
 }
